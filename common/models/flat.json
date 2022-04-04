@@ -1,0 +1,27 @@
+{
+  "name": "flat",
+  "plural": "flats",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "flatnumber": {
+      "type": "number",
+      "required": true
+    },
+    "location": {
+      "type": "string",
+      "required": true
+    },
+    "pricing": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

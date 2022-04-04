@@ -1,0 +1,13 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "rentapp": {
+    "name": "rentapp",
+    "host": "localhost",
+    "port": 27017,
+    "database": "rentapp",
+    "connector": "mongodb"
+  }
+}
